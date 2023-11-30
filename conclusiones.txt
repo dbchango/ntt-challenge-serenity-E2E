@@ -1,1 +1,6 @@
-
+HALLAZGOS:
+- Al realizar este ejercicio he logrado identificar las ventajas del uso del patrón de diseño Screenplay con Serenity y Cubumber. Este patrón de diseño me facilitón mucho la creación de los flujos que componen la automatización, separandola en bloques a manera de tareas que pueden reutilizarse en otras automatizaciones. En este mismo sentido, la abstracción de los objetos de la pagina facilita su reutilización, tarea que se complica al no tener una herramienta de soporte. 
+- El potencial del uso de esta estructura en el desarrollo de pruebas facilita mucho el trabajo en paralelo entre varios colaboradores, al permitir la creación de "features" las que se pueden delegar para su automatización.
+- El uso de BDD es muy importante para mejorar la dinámica entre los frentes: de analistas y técnicos, por ende la comprensión de las necesidades del cliente y la capacidad del equipo para generar artefactos valioses se ven afectadas de manera positiva.
+CONCLUSIONES:
+- Este enfoque aborda muchos problemas que suelen presentarse en la automatización de pruebas, como la dificultad en la reutilización de código, y mejora la capacidad de adaptabilidad de las pruebas frente a cambios en los ambientes.
