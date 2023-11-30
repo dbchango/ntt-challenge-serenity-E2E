@@ -1,4 +1,4 @@
-# Challenge E2E con Serenity - Cucumber
+![Screenshot 2023-11-30 121040](https://github.com/dbchango/ntt-challenge-serenity-E2E/assets/49067691/459c1f30-b757-440c-b64f-9c522f1e1232)# Challenge E2E con Serenity - Cucumber
 
 ## 1. Prerrequisitos
 - Gradle: 7.6.1
@@ -6,6 +6,16 @@
 - Serenity: 4.0.15
 - IntelliJ IDEA: 2023.2.5
 - Windows 10/11
+
+## 2. Instalación de dependencias
+1. Para la instalación de las dependencias del proyecto debemos abrirlo en nuestro IDE IntelliJ Idea.
+2. Abrimos el archivo build.gradle.
+3. Nos aparecerá un botón en la esquina superior derecha de la ventana para instalar las dependencias del proyecto.
+
+   ![Screenshot 2023-11-30 121040](https://github.com/dbchango/ntt-challenge-serenity-E2E/assets/49067691/32db3d07-d9a5-4895-8f2b-615a78e17ab5)
+
+5. Estas dependencias se instalarán automáticamente
+
   
 ## 2. Instrucciones para ejecurar las pruebas
 1. Abrir el proyecto desde el IDE IntelliJ IDEA.
