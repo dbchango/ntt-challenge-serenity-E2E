@@ -12,7 +12,6 @@
 2. Abrimos el archivo build.gradle.
 3. Nos aparecerá un botón en la esquina superior derecha de la ventana para instalar las dependencias del proyecto.
 
-   ![Screenshot 2023-11-30 121040](https://github.com/dbchango/ntt-challenge-serenity-E2E/assets/49067691/459c1f30-b757-440c-b64f-9c522f1e1232)
    ![Screenshot 2023-11-30 121040](https://github.com/dbchango/ntt-challenge-serenity-E2E/assets/49067691/32db3d07-d9a5-4895-8f2b-615a78e17ab5)
 
 5. Estas dependencias se instalarán automáticamente
