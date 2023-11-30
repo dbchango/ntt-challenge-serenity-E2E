@@ -6,7 +6,7 @@
 - Serenity: 4.0.15
 - IntelliJ IDEA: 2023.2.5
 - Windows 10/11
-- 
+  
 ## 2. Instrucciones para ejecurar las pruebas
 1. Abrir el proyecto desde el IDE IntelliJ IDEA.
 2. Instalar las dependencias del proyecto especificadas en el archivo "build.gradle".
