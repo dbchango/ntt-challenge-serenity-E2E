@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="Agregar productos" skipped="0" tests="1" time="6.7" timestamp="2023-11-29 05:52:10"><testcase name="Agregar 2 productos al carrito de compras"><error message="Argument is of an illegal type: net.thucydides.core.webdriver.stubs.WrappedElementStub" type="java.lang.IllegalArgumentException">Argument is of an illegal type: net.thucydides.core.webdriver.stubs.WrappedElementStub</error><system-err>Argument is of an illegal type: net.thucydides.core.webdriver.stubs.WrappedElementStub&#13;
+net.thucydides.core.webdriver.javascript.JavascriptExecutorFacade.executeScript(JavascriptExecutorFacade.java:75)&#13;
+starter.tasks.ValidateAddedProducts.performAs(ValidateAddedProducts.java:16)&#13;
+net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:519)&#13;
+net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:499)&#13;
+net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:471)&#13;
+net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:213)&#13;
+net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:200)&#13;
+net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:92)&#13;
+starter.stepdefinitions.AddProductsStepDefinitions.elMiraQueElContadorDeProdcutosYElTotalAPagarSeHaActualizado(AddProductsStepDefinitions.java:28)&#13;
+✽.el mira que el contador de prodcutos y el total a pagar se ha actualizado(classpath:features/addproducts.feature:6)&#13;
+</system-err></testcase></testsuite>

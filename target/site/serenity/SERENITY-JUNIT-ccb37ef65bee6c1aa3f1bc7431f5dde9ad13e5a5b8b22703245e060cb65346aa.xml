@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="1" name="Add products" skipped="8" tests="9" time="9.63" timestamp="2023-11-29 11:24:42"><testcase name="Add two products in a cart"><failure message="&#10;Expecting the element with text value that contains: &lt;[2 item]&gt;&#10;But got............................................: &lt;&quot;0 item(s) - $0.00&quot;&gt;" type="java.lang.AssertionError">
+Expecting the element with text value that contains: &lt;[2 item]&gt;
+But got............................................: &lt;"0 item(s) - $0.00"&gt;</failure><system-err>
+Expecting the element with text value that contains: &lt;[2 item]&gt;
+But got............................................: &lt;"0 item(s) - $0.00"&gt;&#13;
+net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:519)&#13;
+net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:499)&#13;
+net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:471)&#13;
+net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:213)&#13;
+net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:200)&#13;
+net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:92)&#13;
+starter.tasks.ValidateAddedProducts.performAs(ValidateAddedProducts.java:18)&#13;
+net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:519)&#13;
+net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:499)&#13;
+net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:471)&#13;
+net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:213)&#13;
+net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:200)&#13;
+net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:92)&#13;
+starter.stepdefinitions.AddProductsStepDefinitions.validateCartCounter(AddProductsStepDefinitions.java:29)&#13;
+✽.he sees the cart counter and the total cost updated(classpath:features/addproducts.feature:6)&#13;
+</system-err></testcase></testsuite>

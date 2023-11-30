@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="Checkout shopping cart as guest user" skipped="6" tests="7" time="60.88" timestamp="2023-11-29 11:23:18"><testcase name="Make shopping cart checkout"><error message="Argument is of an illegal type: net.thucydides.core.webdriver.stubs.WrappedElementStub" type="java.lang.IllegalArgumentException">Argument is of an illegal type: net.thucydides.core.webdriver.stubs.WrappedElementStub</error><system-err>Argument is of an illegal type: net.thucydides.core.webdriver.stubs.WrappedElementStub&#13;
+net.thucydides.core.webdriver.javascript.JavascriptExecutorFacade.executeScript(JavascriptExecutorFacade.java:75)&#13;
+starter.tasks.EnterShoppingCart.performAs(EnterShoppingCart.java:20)&#13;
+net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:519)&#13;
+net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:499)&#13;
+net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:471)&#13;
+net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:213)&#13;
+net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:200)&#13;
+net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:92)&#13;
+starter.stepdefinitions.AddProductsStepDefinitions.enterShoppingCartOption(AddProductsStepDefinitions.java:42)&#13;
+✽.he select the Shopping Cart option(classpath:features/checkout.feature:5)&#13;
+</system-err></testcase></testsuite>

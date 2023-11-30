@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="2" name="Search by keyword" skipped="0" tests="2" time="12.93" timestamp="2023-11-29 03:16:33"><testcase name="Searching for 'red'"><failure message="&#10;Expecting the title of the page that contains (ignoring case): &lt;[red]&gt;&#10;But got......................................................: &lt;&quot;DuckDuckGo — Privacy, simplified.&quot;&gt;" type="java.lang.AssertionError">
+Expecting the title of the page that contains (ignoring case): &lt;[red]&gt;
+But got......................................................: &lt;"DuckDuckGo — Privacy, simplified."&gt;</failure><system-err>
+Expecting the title of the page that contains (ignoring case): &lt;[red]&gt;
+But got......................................................: &lt;"DuckDuckGo — Privacy, simplified."&gt;&#13;
+net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:519)&#13;
+net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:499)&#13;
+net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:471)&#13;
+net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:213)&#13;
+net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:200)&#13;
+net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:92)&#13;
+starter.stepdefinitions.SearchStepDefinitions.should_see_information_about(SearchStepDefinitions.java:28)&#13;
+✽.he should see information about "red"(classpath:features/search/search_by_keyword.feature:13)&#13;
+</system-err></testcase><testcase name="Searching for 'green'"><failure message="&#10;Expecting the title of the page that contains (ignoring case): &lt;[green]&gt;&#10;But got......................................................: &lt;&quot;DuckDuckGo — Privacy, simplified.&quot;&gt;" type="java.lang.AssertionError">
+Expecting the title of the page that contains (ignoring case): &lt;[green]&gt;
+But got......................................................: &lt;"DuckDuckGo — Privacy, simplified."&gt;</failure><system-err>
+Expecting the title of the page that contains (ignoring case): &lt;[green]&gt;
+But got......................................................: &lt;"DuckDuckGo — Privacy, simplified."&gt;&#13;
+net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:519)&#13;
+net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:499)&#13;
+net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:471)&#13;
+net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:213)&#13;
+net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:200)&#13;
+net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:92)&#13;
+starter.stepdefinitions.SearchStepDefinitions.should_see_information_about(SearchStepDefinitions.java:28)&#13;
+✽.he should see information about "green"(classpath:features/search/search_by_keyword.feature:7)&#13;
+</system-err></testcase></testsuite>
