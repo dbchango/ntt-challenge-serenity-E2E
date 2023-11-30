@@ -1,6 +1,6 @@
-Feature: Add products
+Feature: Buy products
 
-  Scenario: Add two products in a cart
+  Scenario: Add two products in a cart and checkout
     Given User enter in the online store
     When he adds two products in the cart
     Then he sees the cart counter and the total cost updated
